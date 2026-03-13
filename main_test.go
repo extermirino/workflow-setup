@@ -16,4 +16,5 @@ func TestMaxInt(t *testing.T) {
 
 func TestMain(m *testing.M) {
     main()
+    os.Exit(m.Run())
 }
